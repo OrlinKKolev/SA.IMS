@@ -10,7 +10,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CSVReader implements Reader {
+public class CSVReader implements CustomReader {
 
 	@Override
 	public List<? extends Serializable> read(String filename) {

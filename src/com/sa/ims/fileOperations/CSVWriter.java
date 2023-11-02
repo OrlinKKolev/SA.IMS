@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
 
-public class CSVWriter implements Writer {
+public class CSVWriter implements CustomWriter {
 	@Override
 	public void write(List<Serializable> items, String filename) {
 		try (FileWriter writer = new FileWriter(filename)) {

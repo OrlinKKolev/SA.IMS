@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SerializedReader implements Reader {
+public class SerializedReader implements CustomReader {
 
 	@Override
 	public List<? extends Serializable> read(String filename) {
