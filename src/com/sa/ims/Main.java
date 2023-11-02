@@ -26,6 +26,6 @@ public class Main {
 		items.add(item1);
 		items.add(item2);
 		items.add(item3);
-		writer.write(items, "./src/resources/files/test01.csv");
+		writer.write(items, "./src/resources/files/items.csv");
 	}
 }
